@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>stickhero</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+
+    <header>
+      <h1 class = "TituloUm">Jogo de RPG - StickHero</h1>
+    </header>
+
+    <main>
+      <div class = "Personagens">
+      <img src="./img/campeaoStickHero.png" alt="Campeão StickHero">
+      <img src="./img/mostroStickHero.png" alt="Monstro StickHero">
+      </div>
+
+      <div class="BarrasDeVidas">
+      <div class = "VidaCampeao"></div>
+      <div class = "VidaMosntro"></div>
+      </div>
+      
+      <div class="AcoesCampeao">
+      <button class="BtnAtacarCampeao">Atacar</button>
+      <button class="BtnDefenderCampeao">Defender</button>
+      <button class="BtnCurarCampeao">Curar</button>
+      </div>
+
+      <div class="AcoesMonstro">
+      <button class="BtnAtacarMonstro">Atacar</button>
+      <button class="BtnCurarMonstro">Curar</button>
+      <button class="BtnDefenderMonstro">Defender</button>
+      </div>
+
+    </main>
+  </body>
+</html>
